@@ -1,0 +1,19 @@
+---
+- name: Provision Slave
+  hosts: all
+  tasks:
+    - name: Copy script for setting up LAMP/Laravel application into the slave VM
+      copy:
+        src: webconfig.sh
+        dest: /tmp/webconfig.sh
+        mode: 0755
+    
+    - name: Executing script for setting up LAMP/Laravel application on the slave VM [This may take a while]
+      command: /tmp/webconfig.sh
+
+    - name: Cron job to check server's uptime at 12AM daily
+      cron:
+        name: check_uptime
+        minute: "0"
+        hour: "0"
+        job: "uptime >> /var/log/uptime.log"
