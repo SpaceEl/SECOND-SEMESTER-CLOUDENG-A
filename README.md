@@ -41,6 +41,9 @@ Our project comprises two key components:
 
 - Verify that all VMs are running by checking their status.
 
+- <img width="1780" alt="IMAGE 1" src="https://github.com/SpaceEl/SECOND-SEMESTER-CLOUDENG-ALTSCHOOL-EXAM/assets/105453871/6072d28d-5cfa-4805-83e8-2768fc492c64">
+
+
 - Copy the Master's public key to the Slave VM to enable SSH key-based authentication.
 
 ### 3. Execute the Bash Script on the Master Node
@@ -69,6 +72,8 @@ Our project comprises two key components:
 
 - You can access the application via a web browser using the IP addresses of the Master and Slave VMs.
 
+<img width="1785" alt="IMAGE 2" src="https://github.com/SpaceEl/SECOND-SEMESTER-CLOUDENG-ALTSCHOOL-EXAM/assets/105453871/5045299b-fa4d-4e2b-b205-b7e123d28296">
+
 ## Troubleshooting
 
 If you encounter any issues during the setup or need assistance, please refer to the troubleshooting section in the shell script or seek help from the community.
@@ -83,8 +88,8 @@ For more advanced usage, consider extending this automation to handle additional
 
 ## Author
 
-- [Your Name]
-- [Your Email]
+- Elohor Godwin
+- elohorgodwin4298@gmail.com
 
 ## License
 
