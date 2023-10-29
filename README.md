@@ -41,7 +41,7 @@ Our project comprises two key components:
 
 - Verify that all VMs are running by checking their status.
 
-- <img width="1780" alt="IMAGE 1" src="https://github.com/SpaceEl/SECOND-SEMESTER-CLOUDENG-ALTSCHOOL-EXAM/assets/105453871/6072d28d-5cfa-4805-83e8-2768fc492c64">
+<img width="1375" alt="IMAGE 1" src="https://github.com/SpaceEl/SECOND-SEMESTER-CLOUDENG-ALTSCHOOL-EXAM/assets/105453871/a41af4e1-97de-45ed-a7ab-07afe9f1650e">
 
 
 - Copy the Master's public key to the Slave VM to enable SSH key-based authentication.
